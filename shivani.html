@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h2>Simple Feedback Form</h2>
+
+    <form action="https://formspree.io/f/yourFormID" method="POST">
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Feedback:</label><br>
+        <textarea name="message" required></textarea><br><br>
+
+        <button type="submit">Send Feedback</button>
+    </form>
+
+</body>
+</html>
